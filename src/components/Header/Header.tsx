@@ -9,7 +9,7 @@ const Header = () => {
           Instead of spending time searching for the right app, our AI will
           bring the right app to you.
         </p>
-        <button aria-label="learn" className="slider__button">
+        <button aria-label="learn" className="slider__button" type="button">
           Learn
         </button>
         <ol className="slider__list">
