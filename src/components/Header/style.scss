@@ -1,34 +1,49 @@
 .header {
-  /* display stuff */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .slider {
-  /* display stuff */
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* box-model */
+
   padding: 0 16px;
   max-width: 598px;
   width: 100%;
 
+  @media (max-width: 768px) {
+    & {
+      max-width: 300px;
+    }
+  }
+
   &__title {
-    /* typography */
     font-family: "Helvetica", Sans-Serif;
     font-style: normal;
     font-weight: 300;
     font-size: 72px;
     line-height: 83px;
     text-align: center;
+
     color: #f2f4f7;
-    /* box-model */
+
     margin-bottom: 32px;
+
+    @media (max-width: 1024px) {
+      & {
+        font-size: 60px;
+      }
+    }
+    @media (max-width: 768px) {
+      & {
+        font-size: 40px;
+        line-height: 50px;
+      }
+    }
   }
 
   &__text {
-    /* typography */
     font-family: "Helvetica";
     font-style: normal;
     font-weight: 300;
@@ -36,22 +51,27 @@
     line-height: 21px;
     text-align: center;
     color: #f2f4f7;
-    /* box-model */
-    margin-bottom: 32px;
+
+    margin-bottom: 80px;
+
+    @media (max-width: 1024px) {
+      & {
+        font-size: 16px;
+      }
+    }
   }
 
   &__button {
-    /* box-model */
     padding: 16px 96px;
     margin-bottom: 64px;
-    /* formalization */
+
     border: 2px solid;
     border-image: linear-gradient(92.82deg, #fc4060 0%, #8061fd 100%);
     border-image-slice: 1;
     background: linear-gradient(92.82deg, #fc4060 35%, #8061fd 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    /* typography */
+
     font-family: "Helvetica", Sans-Serif;
     font-style: normal;
     font-weight: 400;
@@ -60,29 +80,33 @@
   }
 
   &__list {
-    /* display stuff */
     display: flex;
     flex-direction: row;
-    /* box-model */
+
     padding: 0 16px;
+    margin-bottom: 229px;
   }
 
   &__eclipse {
-    /* formalization */
     border: 2px solid rgba(196, 196, 196, 0.16);
     border-radius: 50%;
-    /* box-model */
+
     width: 16px;
     height: 16px;
     margin-right: 32px;
 
+    @media (max-width: 768px) {
+      & {
+        width: 10px;
+        height: 10px;
+      }
+    }
+
     &:last-child {
-      /* box-model */
       margin-right: 0;
     }
 
     &--active {
-      /* formalization */
       border: 2px solid #ffffff;
     }
   }
