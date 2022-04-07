@@ -6,18 +6,18 @@ const Nav = () => {
     <nav className="nav">
       <img src={logo} alt="Logo" className="nav__logo" />
       <ul className="nav__list">
-        <li className="nav__list__item">
-          <a href="#" className="nav__list__item__link">
+        <li className="nav__item">
+          <a href="#" className="nav__link">
             Features
           </a>
         </li>
-        <li className="nav__list__item">
-          <a href="#" className="nav__list__item__link">
+        <li className="nav__item">
+          <a href="#" className="nav__link">
             Partners
           </a>
         </li>
-        <li className="nav__list__item">
-          <a href="#" className="nav__list__item__link">
+        <li className="nav__item">
+          <a href="#" className="nav__link">
             Stories
           </a>
         </li>
