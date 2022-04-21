@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-power-implicity/static/css/main.03ef584c.css",
+    "main.js": "/react-power-implicity/static/js/main.801986cf.js",
+    "static/media/Logo.svg": "/react-power-implicity/static/media/Logo.e527469725e37f7b8dbf76b34ab12d87.svg",
+    "index.html": "/react-power-implicity/index.html",
+    "main.03ef584c.css.map": "/react-power-implicity/static/css/main.03ef584c.css.map",
+    "main.801986cf.js.map": "/react-power-implicity/static/js/main.801986cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03ef584c.css",
+    "static/js/main.801986cf.js"
+  ]
+}
